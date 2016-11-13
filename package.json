@@ -7,9 +7,11 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "body-parser": "^1.15.2",
     "express": "3.1.1",
-    "socket.io":"0.9.14",
-    "omxcontrol":"*"
+    "method-override": "^2.3.6",
+    "omxcontrol": "*",
+    "socket.io": "0.9.14"
   },
   "author": "Frank Gonzalez and Joey Tongay",
   "license": "ISC"
